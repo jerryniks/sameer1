@@ -1,4 +1,4 @@
-/*const taskName = document.querySelector("#taskname");
+const taskName = document.querySelector("#taskname");
 const taskDescription = document.querySelector("#taskdescription");
 const taskAssign = document.querySelector("#taskassign");
 const taskDate = document.querySelector("#taskdate");
@@ -13,7 +13,7 @@ function validFormFieldInput(data) {
         errorMessage("Password must be at least 5 characters long.");  
         return false;  
         }  
-      } */
+      } 
 
 
       const validateFields = (fields) => {
